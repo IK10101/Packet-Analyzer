@@ -1,0 +1,504 @@
+{
+  "timestamp": "2026-06-27T10:41:41",
+  "summary": {
+    "total_packets": 77,
+    "forwarded": 77,
+    "dropped": 0,
+    "active_flows": 43
+  },
+  "app_breakdown": {
+    "HTTPS": 39,
+    "Unknown": 16,
+    "DNS": 4,
+    "Twitter/X": 3,
+    "HTTP": 2,
+    "TikTok": 1,
+    "Telegram": 1,
+    "Amazon": 1,
+    "Instagram": 1,
+    "Discord": 1,
+    "Facebook": 1,
+    "GitHub": 1,
+    "YouTube": 1,
+    "Zoom": 1,
+    "Google": 1,
+    "Spotify": 1,
+    "Cloudflare": 1,
+    "Apple": 1
+  },
+  "flows": [
+    {
+      "src_ip": "192.168.1.50",
+      "dst_ip": "172.217.0.100",
+      "src_port": 64009,
+      "dst_port": 443,
+      "app": "HTTPS",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.50",
+      "dst_ip": "172.217.0.100",
+      "src_port": 53728,
+      "dst_port": 443,
+      "app": "HTTPS",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.50",
+      "dst_ip": "172.217.0.100",
+      "src_port": 50713,
+      "dst_port": 443,
+      "app": "HTTPS",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.50",
+      "dst_ip": "172.217.0.100",
+      "src_port": 58448,
+      "dst_port": 443,
+      "app": "HTTPS",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "8.8.8.8",
+      "src_port": 63295,
+      "dst_port": 53,
+      "app": "DNS",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "185.199.108.153",
+      "src_port": 64312,
+      "dst_port": 80,
+      "app": "HTTPS",
+      "sni": "httpbin.org",
+      "packets": 2,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "93.184.216.34",
+      "src_port": 58936,
+      "dst_port": 80,
+      "app": "HTTPS",
+      "sni": "example.com",
+      "packets": 2,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "17.253.144.10",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 56170,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "17.253.144.10",
+      "src_port": 56170,
+      "dst_port": 443,
+      "app": "Apple",
+      "sni": "www.apple.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "8.8.8.8",
+      "src_port": 55178,
+      "dst_port": 53,
+      "app": "DNS",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "13.107.42.14",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 57103,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "104.244.42.65",
+      "src_port": 59993,
+      "dst_port": 443,
+      "app": "Twitter/X",
+      "sni": "twitter.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "157.240.1.174",
+      "src_port": 58747,
+      "dst_port": 443,
+      "app": "Instagram",
+      "sni": "www.instagram.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "157.240.1.35",
+      "src_port": 64044,
+      "dst_port": 443,
+      "app": "Facebook",
+      "sni": "www.facebook.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "8.8.8.8",
+      "src_port": 61888,
+      "dst_port": 53,
+      "app": "DNS",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "104.244.42.65",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 59993,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "52.94.236.248",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 63093,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "157.240.1.35",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 64044,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "142.250.185.206",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 54552,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "23.52.167.61",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 50684,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "8.8.8.8",
+      "src_port": 51251,
+      "dst_port": 53,
+      "app": "DNS",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "99.86.0.100",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 63971,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "142.250.185.110",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 58867,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "142.250.185.110",
+      "src_port": 58867,
+      "dst_port": 443,
+      "app": "YouTube",
+      "sni": "www.youtube.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "140.82.114.4",
+      "src_port": 55490,
+      "dst_port": 443,
+      "app": "GitHub",
+      "sni": "github.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "52.94.236.248",
+      "src_port": 63093,
+      "dst_port": 443,
+      "app": "Amazon",
+      "sni": "www.amazon.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "104.16.85.20",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 54566,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "23.52.167.61",
+      "src_port": 50684,
+      "dst_port": 443,
+      "app": "Twitter/X",
+      "sni": "www.netflix.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "35.186.224.25",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 49582,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "142.250.185.206",
+      "src_port": 54552,
+      "dst_port": 443,
+      "app": "Google",
+      "sni": "www.google.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "140.82.114.4",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 55490,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "104.16.85.20",
+      "src_port": 54566,
+      "dst_port": 443,
+      "app": "Discord",
+      "sni": "discord.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "99.86.0.100",
+      "src_port": 63971,
+      "dst_port": 443,
+      "app": "TikTok",
+      "sni": "www.tiktok.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "35.186.224.25",
+      "src_port": 49582,
+      "dst_port": 443,
+      "app": "Zoom",
+      "sni": "zoom.us",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "35.186.227.140",
+      "src_port": 52879,
+      "dst_port": 443,
+      "app": "Telegram",
+      "sni": "web.telegram.org",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "35.186.227.140",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 52879,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.0.78.24",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 52439,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "192.0.78.24",
+      "src_port": 52439,
+      "dst_port": 443,
+      "app": "Cloudflare",
+      "sni": "www.cloudflare.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "35.186.224.47",
+      "src_port": 51883,
+      "dst_port": 443,
+      "app": "Spotify",
+      "sni": "open.spotify.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.50",
+      "dst_ip": "172.217.0.100",
+      "src_port": 49913,
+      "dst_port": 443,
+      "app": "HTTPS",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "35.186.224.47",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 51883,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "157.240.1.174",
+      "dst_ip": "192.168.1.100",
+      "src_port": 443,
+      "dst_port": 58747,
+      "app": "Unknown",
+      "sni": "",
+      "packets": 1,
+      "blocked": false
+      "matched_patterns": []
+    },
+    {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "13.107.42.14",
+      "src_port": 57103,
+      "dst_port": 443,
+      "app": "Twitter/X",
+      "sni": "www.microsoft.com",
+      "packets": 3,
+      "blocked": false
+      "matched_patterns": []
+    }
+  ]
+}
