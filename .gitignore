@@ -1,0 +1,14 @@
+*.exe
+*.o
+dpi_simple
+dpi_engine
+*_output.pcap
+*_output.pcap.report.json
+*_fixed.pcap
+dns_fixed.pcap
+dns_output.pcap
+dns_output.pcap.report.json
+google_output.pcap
+google_output.pcap.report.json
+dvwa_output.pcap
+dvwa_output.pcap.report.json
