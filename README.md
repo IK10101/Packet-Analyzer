@@ -223,7 +223,7 @@ YouTube, Google, Facebook, Instagram, Twitter/X, TikTok, Discord, Telegram, Zoom
 
 ---
 
-## What I Added (vs Original)
+## Uniqueness
 
 | Feature | File | Description |
 |---------|------|-------------|
