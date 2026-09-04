@@ -270,7 +270,7 @@ YouTube, Google, Facebook, Instagram, Twitter/X, TikTok, Discord, Telegram, Zoom
  
 ---
  
-## What I Added (vs Original Base)
+## Functionalities
  
 | Feature | File | Description |
 |---------|------|-------------|
