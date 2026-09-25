@@ -3,7 +3,11 @@
 A C++17 DPI engine that parses real PCAP network captures, classifies traffic across 18+ application types, performs regex-based payload pattern matching, and exports structured JSON reports.
  
 > Built by [Ishit Kumar](https://github.com/IK10101)
- 
+
+
+ ## Demo
+[▶ Watch Demo](https://www.youtube.com/watch?v=tbHb-MGs1nA)
+
 ---
  
 ## Features
@@ -284,3 +288,5 @@ YouTube, Google, Facebook, Instagram, Twitter/X, TikTok, Discord, Telegram, Zoom
 ## License
  
 MIT
+
+
