@@ -12,3 +12,10 @@ google_output.pcap
 google_output.pcap.report.json
 dvwa_output.pcap
 dvwa_output.pcap.report.json
+dpi_engine
+dpi_mt.exe
+output_mt.pcap
+
+dpi_engine
+dpi_mt.exe
+output_mt.pcap
