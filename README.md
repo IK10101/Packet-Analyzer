@@ -284,6 +284,12 @@ YouTube, Google, Facebook, Instagram, Twitter/X, TikTok, Discord, Telegram, Zoom
 | Integrated reporting | `src/main_working.cpp` | Wired both features into the main pipeline |
  
 ---
+
+## Concurrency Testing
+Built with `-fsanitize=thread` and run 70 times (50 on `test_dpi.pcap`, 20 on a
+15,400-packet merged capture). ThreadSanitizer reported no data races.
+
+---
  
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   
